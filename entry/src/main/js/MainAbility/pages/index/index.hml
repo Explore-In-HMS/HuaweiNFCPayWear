@@ -1,0 +1,40 @@
+<div class="container" onswipe="touchMove">
+    <text class="header-title">Key Operations</text>
+    <list class="list-wrapper">
+        <list-item class="list-item">
+            <div class="row" onclick="click('generate_key')">
+                <image class="buttonIcon" src="/icons/generate.png"></image>
+                <text class="buttonText">Generate Key</text>
+            </div>
+        </list-item>
+        <list-item class="list-item">
+            <div class="row" onclick="click('encrypt_key')">
+                <image class="buttonIcon" src="/icons/encrypt.png"></image>
+                <text class="buttonText">Encrypt Key</text>
+            </div>
+        </list-item>
+        <list-item class="list-item">
+            <div class="row" onclick="click('decrypt_key')">
+                <image class="buttonIcon" src="/icons/decrypt.png"></image>
+                <text class="buttonText">Decrypt Key</text>
+            </div>
+        </list-item>
+        <list-item class="list-item">
+            <div class="row" onclick="click('delete_key')">
+                <image class="buttonIcon" src="/icons/delete.png"></image>
+                <text class="buttonText">Delete Key</text>
+            </div>
+        </list-item>
+        <list-item class="list-item">
+            <div class="row" onclick="click('check_key')">
+                <image class="buttonIcon" src="/icons/check.png"></image>
+                <text class="buttonText">Check Key</text>
+            </div>
+        </list-item>
+    </list>
+
+    <div class="prompt" show="{{ toastShow }}" style="opacity: {{ toastShow ? 0.8 : 0 }}">
+        <image class="toastButtonIcon" src="{{ iconSrc }}"></image>
+        <text class="toastMessage"> {{ title }}</text>
+    </div>
+</div>
