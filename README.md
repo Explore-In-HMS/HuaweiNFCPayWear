@@ -1,14 +1,14 @@
 # <p align="center"> HCE Payment Watch Application for HarmonyOS ⌚ </p>  
 
 
-![image](/uploads/157b6ce8-1360-40f0-a017-77eaf2c42e9d/1713792481173.png '1713792481173.png')
+![demo](https://github.com/Explore-In-HMS/HuaweiNFCPayWear/assets/56589369/af961206-f99b-447b-826a-160fe1e0c022)
 
 
 ## 📸 Screenshots
 
-|  ![image](/uploads/d92f4758-5e06-4ad3-8b9a-2a632d9370d6/1713792790784.png '1713792790784.png')| ![image](/uploads/4c3d090f-ceac-49c6-9c4e-a81d0413557e/1713792796920.png '1713792796920.png')|
+|  ![1](https://github.com/Explore-In-HMS/HuaweiNFCPayWear/assets/56589369/0d9ac0ea-b865-46c1-97eb-b5180210dfb8)| ![2](https://github.com/Explore-In-HMS/HuaweiNFCPayWear/assets/56589369/c37ad0b1-d5f4-48d1-8ff4-50a28f02cf82)|
 |--|--|
-| ![image](/uploads/7e894b9e-1d2d-4880-9048-d507c4004cd4/1713792807245.png '1713792807245.png')| ![image](/uploads/79da7fcc-997f-4eec-a8a0-188dd4382f9c/1713792814497.png '1713792814497.png') |
+| ![3](https://github.com/Explore-In-HMS/HuaweiNFCPayWear/assets/56589369/a53cea80-c7ff-4845-9db6-c7f3266bbcfa)| ![5](https://github.com/Explore-In-HMS/HuaweiNFCPayWear/assets/56589369/49c514d8-a28e-48fd-a079-47d327972a2b)|
 
  
   
