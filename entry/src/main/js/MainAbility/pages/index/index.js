@@ -42,7 +42,7 @@ export default {
         headCon: appName,
         paymentAid: paymentAid,
         otherAid: otherAid,
-        title: '',
+        toastContent: '',
         toastShow: false,
         iconSrc: ''
     },
@@ -65,23 +65,23 @@ export default {
         switch (buttonValue) {
             case 'generate_key':
                 operationSuccessful = GenerateKeyCBC().operationSuccessful;
-                this.title = GenerateKeyCBC().huksInfo;
+                this.toastContent = GenerateKeyCBC().huksInfo;
                 break;
             case 'encrypt_key':
                 operationSuccessful = EncryptDataCBC(plainText).operationSuccessful;
-                this.title = EncryptDataCBC(plainText).huksInfo;
+                this.toastContent = EncryptDataCBC(plainText).huksInfo;
                 break;
             case 'decrypt_key':
                 operationSuccessful = DecryptDataCBC(cipherText).operationSuccessful;
-                this.title = DecryptDataCBC(cipherText).huksInfo;
+                this.toastContent = DecryptDataCBC(cipherText).huksInfo;
                 break;
             case 'delete_key':
                 operationSuccessful = DeleteKeyCBC().operationSuccessful;
-                this.title = DeleteKeyCBC().huksInfo;
+                this.toastContent = DeleteKeyCBC().huksInfo;
                 break;
             case 'check_key':
                 operationSuccessful = CheckKeyExistCBC().operationSuccessful;
-                this.title = CheckKeyExistCBC().huksInfo;
+                this.toastContent = CheckKeyExistCBC().huksInfo;
                 break;
             default:
                 console.log(`err ${buttonValue}.`);
