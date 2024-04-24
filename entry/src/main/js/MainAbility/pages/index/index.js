@@ -25,7 +25,7 @@ import { paymentAid, otherAid, comparisonResponseData, DEFAULT_RESP } from './co
 import app from '@system.app'
 
 //TODO: You should update this with the package name of your watch application
-const appName = "dev.sinanyilmaz.hcepayment";
+const appName = "com.hms.hcepayment";
 
 let plainText = 'abcdef123456789';
 let cipherText = '';

@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "dev.sinanyilmaz.hcepayment",
+    "bundleName": "com.hms.hcepayment",
     "vendor": "example",
     "version": {
       "code": 1000000,
