@@ -54,8 +54,10 @@ The handleApdu function processes an APDU (Smart Card Commands) command received
 This is the part where the necessary operations are performed according to the button clicked and a toast message is displayed to the user on the screen according to the result of the operation.
 
 ## Links
-- For design guide: https://developer.huawei.com/consumer/en/doc/design-guides-V1/components-0000001053459781-V1
-- For integrating the Wear Engine SDK: https://developer.huawei.com/consumer/en/doc/connectivity-Guides/integrating-fitnesstwatch-sdk-0000001052859174
+- HarmonyOS Design Guide: https://developer.huawei.com/consumer/en/doc/design-guides-V1/components-0000001053459781-V1
+- HarmonyOS Universal KeyStore (HUKS) Overview: https://developer.huawei.com/consumer/en/doc/harmonyos-guides-V2/huks-overview-0000001496554665-V2
+- HUAWEI Wear Engine SDK Integration: https://developer.huawei.com/consumer/en/doc/connectivity-Guides/integrating-fitnesstwatch-sdk-0000001052859174
+- HUAWEI Wear Engine Service Introduction: https://developer.huawei.com/consumer/en/doc/connectivity-Guides/service-introduction-0000000000018585
 
 
 
