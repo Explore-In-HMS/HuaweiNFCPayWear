@@ -1,0 +1,16 @@
+{
+  "strings": {
+    "hello": "Hello",
+    "world": "World",
+    "generate_key": "Key generated",
+    "generate_key_false": "Failed process!",
+    "encrypt_key" : "Key encrypted",
+    "encrypt_key_false" : "Failed to encrypt!",
+    "decrypt_key" : "Key decrypted",
+    "decrypt_key_false" : "Failed to decrypt!",
+    "delete_key" : "Key deleted",
+    "delete_key_false" : "Failed to deleted!",
+    "check_key" : "There is key",
+    "check_key_false" : "There is no key!"
+  }
+}

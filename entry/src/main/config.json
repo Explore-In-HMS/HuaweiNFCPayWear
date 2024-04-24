@@ -1,0 +1,114 @@
+{
+  "app": {
+    "bundleName": "com.hms.hcepayment",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+        {
+          "entities": [
+            "ohos.nfc.cardemulation.action.HOST_APDU_SERVICE"
+          ],
+          "actions": [
+            "ohos.nfc.cardemulation.action.HOST_APDU_SERVICE"
+          ]
+        }
+      ],
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "paymentAid",
+              "value": "d5760000850100"
+            },
+            {
+              "name": "paymentAid",
+              "value": "d5760000850101"
+            },
+            {
+              "name": "otherAid",
+              "value": "D4760000850102"
+            },
+            {
+              "name": "otherAid",
+              "value": "d5760000850103"
+            },
+            {
+              "name": "payment-aid",
+              "value": "325041592E5359532E4444463031"
+            },
+            {
+              "name": "other-aid",
+              "value": "A0000000041010|A0000000042203|A0000000031010"
+            },
+            {
+              "name": "paymentAid",
+              "value": "325041592E5359532E4444463031"
+            },
+            {
+              "name": "otherAid",
+              "value": "A0000000041010|A0000000042203|A0000000031010"
+            },
+            {
+              "name": "supportLists",
+              "value": "",
+              "extra": ""
+            }
+          ]
+
+        },
+        "name": ".MainAbility",
+        "srcLanguage": "js",
+        "srcPath": "MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:MainAbility_desc",
+        "label": "$string:MainAbility_label",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": ".MainAbility"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "reason": "申请NFC权限理由1",
+        "usedScene": {
+          "ability": [
+            "FormAbility"
+          ],
+          "when": "always"
+        },
+        "name": "ohos.permission.NFC_TAG"
+      },
+      {
+        "reason": "申请NFC权限理由2",
+        "usedScene": {
+          "ability": [
+            "FormAbility"
+          ],
+          "when": "always"
+        },
+        "name": "ohos.permission.NFC_CARD_EMULATION"
+      }
+    ]
+  }
+}
